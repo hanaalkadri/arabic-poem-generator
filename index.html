@@ -7,40 +7,45 @@
     <title>AI Arabic Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Arabic Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the arabic poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        the poem will go here
-        <br />
-        the poem will go here
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/hanaalkadri" target="_blank"> Hana Alkadri</a>
-      and is<a
-        href="https://github.com/hanaalkadri/arabic-poem-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://arabic-poem-generator.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Arabic Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the arabic poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          the poem will go here
+          <br />
+          the poem will go here
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/hanaalkadri" target="_blank">
+          Hana Alkadri</a
+        >
+        and is<a
+          href="https://github.com/hanaalkadri/arabic-poem-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://arabic-poem-generator.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
